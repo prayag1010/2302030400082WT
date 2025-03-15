@@ -1,0 +1,166 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+/* Login Container */
+.login-container {
+    display: flex;
+    max-width: 950px;
+    background: black;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+    width: 90%;
+}
+
+/* Left Section */
+.login-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-left img {
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Right Section */
+.login-right {
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #F5A623;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #F5A623;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-group {
+    position: relative;
+    margin: 15px 0;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 40px 12px 15px;
+    border: none;
+    background: #B6A563;
+    color: black;
+    font-size: 16px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.input-group .icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 18px;
+}
+
+/* Forgot Password */
+.forgot-password {
+    text-align: right;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.forgot-password a {
+    color: #F5A623;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Login Button */
+.login-btn {
+    width: 100%;
+    background: #F5A623;
+    color: black;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.login-btn:hover {
+    background: #ffbe4e;
+}
+
+/* Signup Section */
+.signup {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup a {
+    color: #F5A623;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
+
+/* Google Login */
+.google-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.google-login:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.google-login img {
+    width: 20px;
+    margin-right: 10px;
+}

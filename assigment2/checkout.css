@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: black;
+    color: #fff;
+}
+
+/* Navigation */
+.navbar {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFD700;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.user {
+    color: white;
+}
+
+/* Checkout Section */
+.checkout-container {
+    text-align: center;
+    padding: 30px;
+}
+
+.cart-title {
+    color: #ccc;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.checkout-box {
+    background: #000;
+    padding: 40px;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.checkout-box h2 {
+    font-size: 26px;
+    color: #FFD700;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 48%;
+    padding: 12px;
+    background: #d3d3d3;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group i {
+    position: relative;
+    left: -30px;
+    color: gray;
+}
+
+.checkout-buttons {
+    margin-top: 20px;
+}
+
+.pay-now {
+    background: #FFD700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;

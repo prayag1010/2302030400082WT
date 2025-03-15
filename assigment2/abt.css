@@ -1,0 +1,137 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: black;
+}
+
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #F5A623;
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-images {
+    display: flex;
+    gap: 10px;
+    width: 90%;
+}
+
+.hero-images img {
+    width: 33%;
+    border-radius: 10px;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px 100px;
+}
+
+h1, h2 {
+    color: #F5A623;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Branches Section */
+.branches {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.branch-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.branch {
+    background: #1E1E1E;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.branch h3 {
+    color: #F5A623;
+    margin-bottom: 10px;
+}
+
+/* Commitment Section */
+.commitment {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.commitment p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background: black;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #F5A623;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

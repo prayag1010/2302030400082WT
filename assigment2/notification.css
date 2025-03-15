@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f8f8f8;
+    text-align: center;
+    color: #3b2606;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 15px 40px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFD700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-email {
+    margin-right: 10px;
+}
+
+.user-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Main Content */
+main {
+    margin: 80px auto;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h2 span {
+    color: #8b6200;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Empty Notification Box */
+.empty-box img {
+    width: 180px;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+footer p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFD700;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons i {
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+}
